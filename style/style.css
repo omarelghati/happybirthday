@@ -230,12 +230,13 @@ body {
   }
 
   .four .text-box {
-    width: 90%;
+    width: 70%;
+    font-size: 0.8rem;
   }
 
   .text-box .fake-btn {
     right: 5px;
-    bottom: -38px;
+    bottom: 5px;
   }
 
   .idea-6 span {
