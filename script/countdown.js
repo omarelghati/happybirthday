@@ -1,4 +1,5 @@
 // Set the date we're counting down to
+window.location.href = "index.html";
 var endDate = new Date("May 21, 2020 00:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -19,7 +20,7 @@ var x = setInterval(function () {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    window.location.href = "index.html";
+
     document.getElementById("countContainer").innerHTML = "EXPIRED";
   }
 }, 1000);
