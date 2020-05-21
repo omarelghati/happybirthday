@@ -1,7 +1,6 @@
 <script>
-  var date = new Date().getTime();
+  var date = new Date().getUTCDay();
   var herBirthday = new Date("May 21, 2020 00:00:00");
-
   if (date < herBirthday) {
     window.location.href = "countdown.html";
   }
